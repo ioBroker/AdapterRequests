@@ -5,7 +5,7 @@ This Place is used to track the status of Requests for new ioBroker-Adapters.
 
 ## How to use this?
 * If you are interested in a new Adater for a new device or functionality then please create a new Issue (see below for information)
-* If an issue is already existing use the "+1"/"Thumbs up" button to also show interest/vote for the topic
+* If an issue is already existing use the "+1"/"Thumbs up" button to also show interest/vote for the topic. If you just created the issue or giving the first vote then you need to use the face-button in the upper right corner of the first post to select the thumbs-up. If already one vote is there you can just click on it to increate the number of votes
 ![thumbsup](thumbsup.png)
 
 ## Why should I vote for issues?
