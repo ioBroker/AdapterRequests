@@ -6,6 +6,7 @@ This Place is used to track the status of Requests for new ioBroker-Adapters.
 ## How to use this?
 * If you are interested in a new Adater for a new device or functionality then please create a new Issue (see below for information)
 * If an issue is already existing use the "+1"/"Thumbs up" button to also show interest/vote for the topic
+![thumbsup](thumbsup.png)
 
 ## Why should I vote for issues?
 ... because the developers use this as information too see which Adapter is interesting for how many users ... but this is only one reason a developer starts development. So also less voted adapter requests could be done before others. It is still a decision from the developer!
