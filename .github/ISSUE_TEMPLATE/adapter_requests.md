@@ -25,4 +25,4 @@ Please try it and add infos
 **Additional context**
 Add any other context or screenshots about the feature request here. If the topic was discussed in ioBroker forum please include the link too.
 
-AFter you created the issue vote for yourself in the first post of the issue using the "+1"/"Thumbs up" button
+After you created the issue vote for yourself in the first post of the issue using the "+1"/"Thumbs up" button
