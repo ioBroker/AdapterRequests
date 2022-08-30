@@ -10,7 +10,12 @@ assignees: ''
 **What kind of device or service you would like to see an adapter for?**
 Add name and company of the device, including links to the device and any additional informations[...]
 
-**Is an official API including documentation is available?**
+**Is the device connected to the internet or only in the local network available?**
+
+**Is an official App or Website available?**
+If yes please add links
+
+**Is an official API including documentation available?**
 If yes please add links and informations[...]
 
 **Are other libraries for an integration available?**
