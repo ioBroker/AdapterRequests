@@ -18,6 +18,12 @@ This Place is used to track the status of Requests for new ioBroker-Adapters.
 * Vote for yourself in the first post of the issue using the "+1"/"Thumbs up" button
 
 ## How developers should use it?
-* If you want to develop a new Adapter please add your own ideas and adapters here too so that we have transparency (as it was in Trello partly before)
-* Assign the issue to yourself to show that you are working on it and also use the Labels
-* Close the issue when the adapter or functionality is available
+* If you want to develop a new Adapter please add your own ideas and adapters here too so that we have transparency
+* Add a clear comment that you are planning or actively working on the adapter.
+* The issue will be assigned to you soon afterwards.
+* Add a link to the repository as soon as it exists and do not forget to register your adapter at npm. (*)
+* Drop a note here if you released the adapter to testing (added a topic at https://forum.iobroker.net) and link to the forums topic
+* Add the link to your repository PR as soon as you request addition to latest repository.
+* Do NOT close the issue when the adapter or functionality is available - this will be done during repository release.
+
+(*) Note: This repository and especially the issue list does NOT synchronize any adapter names. So the first one registering an adaptername at npm will succeed and noramlly have the right to publish an adapter with this name at ioBroker repositories. 
