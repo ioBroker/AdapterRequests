@@ -1,0 +1,23 @@
+name: Lock Old Closed Issues
+
+on:
+  schedule:
+    # Run weekly on Sunday at 00:00 UTC
+    - cron: '25 1 * * 0'
+  workflow_dispatch: # Allow manual trigger
+
+permissions:
+  issues: write
+
+jobs:
+  lock:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Lock old closed issues
+        uses: dessant/lock-threads@v5
+        with:
+          github-token: ${{ github.token }}
+          issue-inactive-days: '180' # 6 months (approximately)
+          issue-lock-reason: 'resolved'
+          process-only: 'issues'
+          issue-comment: 'This issue has been closed since there has not been any recent activity after it was closed. Please open a new issue if you want to suggest an adapter and eventually reference this issue there.'
