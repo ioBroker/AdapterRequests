@@ -1,0 +1,91 @@
+name: Adapter request
+description: Suggest an idea for a new Adapter
+title: ""
+labels: ["Requested"]
+assignees: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for raising this Adapter request.
+        Please do not forget to vote for your request by "Thumbs up" on the first post. 
+        
+        **Also all interested users should do a "Thumbs up" instead of "+1" or "Me too" posts. Thank you!**
+        
+        How to do that: 
+        <img width="595" alt="Bildschirmfoto 2022-05-29 um 18 30 47" src="https://user-images.githubusercontent.com/11976694/170880793-1d3f7ba4-b004-4944-a5f5-0f5c4873439e.png">
+
+  - type: textarea
+    id: device_or_service
+    attributes:
+      label: What kind of device or service would you like to see an adapter for?
+      description: Add name and company of the device, including links to the device and any additional information
+      placeholder: Device name, manufacturer, and links...
+    validations:
+      required: true
+
+  - type: dropdown
+    id: connection_type
+    attributes:
+      label: Is the device connected to the internet or only available on a local network?
+      options:
+        - Internet
+        - Local network only
+        - Both internet and local network
+        - Unknown
+    validations:
+      required: true
+
+  - type: textarea
+    id: official_app_website
+    attributes:
+      label: Is an official App or Website available?
+      description: If yes, please add links
+      placeholder: Add links to official apps or websites...
+    validations:
+      required: false
+
+  - type: textarea
+    id: official_api
+    attributes:
+      label: Is an official API including documentation available?
+      description: If yes, please add links and information
+      placeholder: Add links to API documentation...
+    validations:
+      required: false
+
+  - type: textarea
+    id: other_libraries
+    attributes:
+      label: Are other libraries for an integration available?
+      description: Ideally in JavaScript/npm, but also other programming languages are interesting, add links please
+      placeholder: Add links to existing libraries...
+    validations:
+      required: false
+
+  - type: textarea
+    id: other_integrations
+    attributes:
+      label: Is this device already integrated in other Smart Home systems?
+      description: Add links please
+      placeholder: Add links to integrations in other systems...
+    validations:
+      required: false
+
+  - type: textarea
+    id: homebridge_integration
+    attributes:
+      label: Is this device already integrated in homebridge? Might the ham adapter in combination with the homebridge plugin be sufficient?
+      description: Please try it and add results
+      placeholder: Describe your experience with homebridge integration...
+    validations:
+      required: false
+
+  - type: textarea
+    id: additional_context
+    attributes:
+      label: Additional context
+      description: Add any other context or screenshots about the feature request here. If the topic was discussed on the ioBroker forum, please include the link too.
+      placeholder: Any additional information, screenshots, or forum links...
+    validations:
+      required: false
