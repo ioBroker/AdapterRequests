@@ -20,4 +20,4 @@ jobs:
           issue-inactive-days: '730' # 6 months (approximately)
           issue-lock-reason: 'resolved'
           process-only: 'issues'
-          issue-comment: 'This issue has been closed since there has not been any recent activity after it was closed. Please open a new issue if you want to suggest an adapter and eventually reference this issue there.'
+          issue-comment: 'This issue has been locked since there has not been any recent activity after it was closed. Please open a new issue if you want to suggest an adapter and eventually reference this issue there.'
