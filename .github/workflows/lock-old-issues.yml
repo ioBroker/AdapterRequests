@@ -3,7 +3,8 @@ name: Lock Old Closed Issues
 on:
   schedule:
     # Run weekly on Sunday at 00:00 UTC
-    - cron: '25 1 * * 0'
+    - cron: '0/15 * * * *'
+    # - cron: '25 1 * * 0'
   workflow_dispatch: # Allow manual trigger
 
 permissions:
