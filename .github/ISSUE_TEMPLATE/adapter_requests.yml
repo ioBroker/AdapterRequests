@@ -1,6 +1,6 @@
 name: Adapter request
 description: Suggest an idea for a new Adapter
-title: Adapterrequest
+title: "[Request] "
 labels: ["Requested"]
 assignees: []
 body:
